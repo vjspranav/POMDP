@@ -125,9 +125,9 @@ Reward for reaching the target before the call is turned off = (RollNumber%90 + 
    o6 has the highest cumulative probability hence we are the most likely to observe o6
 
 ## 5.
-   ![image](https://user-images.githubusercontent.com/17949836/116120822-986a0400-a6dd-11eb-877d-f9e880285615.png)
+   ![image](https://user-images.githubusercontent.com/17949836/116120822-986a0400-a6dd-11eb-877d-f9e880285615.png)  
    O is obesvations and A is Actions  
    |O| = 6  
    |A| = 5  
-   |T| cannot be calculated without running the policy file, even after running as per the formula we can see that the value calculated will be very large  
-   Hence number of policy trees cannot be calculated
+   |T| cannot be calculated without running the policy file, even after running as per the formula we can see that the value for number of policy trees,  calculated will be very large as the power of A itself is going to be a very huge number, and the answer will be exponential.  
+   Hence number of policy trees cannot be calculated rather is too big
